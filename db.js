@@ -23,12 +23,12 @@ async function connect() {
 
     connect();
 
-   /*async function selectCustomers(){
+   async function selectCustomers(){
         const client = await connect();
-        const res = await client.query("SELECT * FROM clientes");
+        const res = await client.query("SELECT * FROM Clientes");
             return res.rows;
     }
 
     module.exports = {
         selectCustomers
-    }*/
+    }
